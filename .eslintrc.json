@@ -1,0 +1,31 @@
+{
+  "extends": [
+    "next/core-web-vitals",
+    "plugin:@typescript-eslint/recommended",
+    "plugin:vitest/recommended",
+    "plugin:prettier/recommended",
+    "plugin:tailwindcss/recommended",
+    "plugin:jsx-a11y/recommended",
+    "plugin:import/recommended",
+    "plugin:import/typescript"
+  ],
+  "plugins": ["prettier", "tailwindcss", "jsx-a11y"],
+  "rules": {
+    "prettier/prettier": "warn",
+    "react/jsx-sort-props": ["warn", { "shorthandLast": true, "reservedFirst": true }],
+    "@typescript-eslint/consistent-type-imports": ["warn", { "disallowTypeAnnotations": false }],
+    "@typescript-eslint/no-unused-vars": "warn",
+    "import/order": [
+      "warn",
+      {
+        "groups": ["type", "builtin", "external", "internal", ["sibling", "parent"], "index", "unknown"]
+      }
+    ],
+    "import/no-named-as-default": "off",
+    "tailwindcss/no-custom-classname": "off",
+    "tailwindcss/classnames-order": "off"
+  },
+  "ignorePatterns": ["node_modules", "build", "public", ".next"],
+  "settings": { "import/resolver": { "typescript": true } },
+  "globals": { "vi": true }
+}
