@@ -1,3 +1,39 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+@layer base {
+  :root {
+    /* Primary colors */
+    --primary-light: 40 180 133; /* #28b485 */
+    --primary-dark: 79 97 42; /* #4f612a */
+    /* Secondary colors */
+    --secondary-1-light: 226 181 168; /* #e2b5a8 */
+    --secondary-1-dark: 135 108 100; /* #876c64 */
+    --secondary-2-light: 187 212 235; /* #bbd4eb */
+    --secondary-2-dark: 112 127 141; /* #707f8d */
+    --secondary-3-light: 179 152 190; /* #b398be */
+    --secondary-3-dark: 128 101 125; /* #80657d */
+    --secondary-4-light: 196 172 108; /* #c4ac6c */
+    /* Grey colors */
+    --grey-1-light: 247 247 247; /* #f7f7f7 */
+    --grey-1-dark: 119 119 119; /* #777 */
+    --grey-2-light: 238 238 238; /* #eee */
+    --grey-2-dark: 153 153 153; /* #999 */
+    --grey-3-dark: 51 51 51; /* #333 */
+    /* Other colors */
+    --color-white: 255 255 255; /* #fff */
+    --color-black: 0 0 0; /* #000 */
+    --color-brown: 132 108 56; /* #846c38 */
+    --color-orange: 255 185 0; /* #ffb900 */
+    --color-blue: 41 152 255; /* #2998ff */
+  }
+
+  html {
+    @apply text-[62.5%];
+  }
+
+  body {
+    @apply text-grey-1-dark font-lora p-6 font-normal leading-tight;
+  }
+}
