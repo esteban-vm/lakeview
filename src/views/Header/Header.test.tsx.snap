@@ -1,0 +1,86 @@
+// Vitest Snapshot v1, https://vitest.dev/guide/snapshot.html
+
+exports[`Header: > should render correctly 1`] = `
+<DocumentFragment>
+  <header
+    aria-labelledby="Lakeview header"
+    class="relative h-screen [&>img]:select-none [&>img]:object-cover"
+    id="header"
+  >
+    <div
+      class="absolute left-0 top-0 z-10 size-full bg-gradient-to-br from-primary-light/50 to-primary-dark/50"
+    />
+    <img
+      alt="Slide 1"
+      class="animate-fade1"
+      data-nimg="fill"
+      decoding="async"
+      loading="lazy"
+      sizes="100vw"
+      src="/_next/image?url=%2Fimages%2Fheader-image-1.jpg&w=3840&q=100"
+      srcset="/_next/image?url=%2Fimages%2Fheader-image-1.jpg&w=640&q=100 640w, /_next/image?url=%2Fimages%2Fheader-image-1.jpg&w=750&q=100 750w, /_next/image?url=%2Fimages%2Fheader-image-1.jpg&w=828&q=100 828w, /_next/image?url=%2Fimages%2Fheader-image-1.jpg&w=1080&q=100 1080w, /_next/image?url=%2Fimages%2Fheader-image-1.jpg&w=1200&q=100 1200w, /_next/image?url=%2Fimages%2Fheader-image-1.jpg&w=1920&q=100 1920w, /_next/image?url=%2Fimages%2Fheader-image-1.jpg&w=2048&q=100 2048w, /_next/image?url=%2Fimages%2Fheader-image-1.jpg&w=3840&q=100 3840w"
+      style="position: absolute; height: 100%; width: 100%; left: 0px; top: 0px; right: 0px; bottom: 0px; color: transparent;"
+    />
+    <img
+      alt="Slide 2"
+      class="animate-fade2"
+      data-nimg="fill"
+      decoding="async"
+      loading="lazy"
+      sizes="100vw"
+      src="/_next/image?url=%2Fimages%2Fheader-image-2.jpg&w=3840&q=100"
+      srcset="/_next/image?url=%2Fimages%2Fheader-image-2.jpg&w=640&q=100 640w, /_next/image?url=%2Fimages%2Fheader-image-2.jpg&w=750&q=100 750w, /_next/image?url=%2Fimages%2Fheader-image-2.jpg&w=828&q=100 828w, /_next/image?url=%2Fimages%2Fheader-image-2.jpg&w=1080&q=100 1080w, /_next/image?url=%2Fimages%2Fheader-image-2.jpg&w=1200&q=100 1200w, /_next/image?url=%2Fimages%2Fheader-image-2.jpg&w=1920&q=100 1920w, /_next/image?url=%2Fimages%2Fheader-image-2.jpg&w=2048&q=100 2048w, /_next/image?url=%2Fimages%2Fheader-image-2.jpg&w=3840&q=100 3840w"
+      style="position: absolute; height: 100%; width: 100%; left: 0px; top: 0px; right: 0px; bottom: 0px; color: transparent;"
+    />
+    <img
+      alt="Slide 3"
+      class="animate-fade3"
+      data-nimg="fill"
+      decoding="async"
+      loading="lazy"
+      sizes="100vw"
+      src="/_next/image?url=%2Fimages%2Fheader-image-3.jpg&w=3840&q=100"
+      srcset="/_next/image?url=%2Fimages%2Fheader-image-3.jpg&w=640&q=100 640w, /_next/image?url=%2Fimages%2Fheader-image-3.jpg&w=750&q=100 750w, /_next/image?url=%2Fimages%2Fheader-image-3.jpg&w=828&q=100 828w, /_next/image?url=%2Fimages%2Fheader-image-3.jpg&w=1080&q=100 1080w, /_next/image?url=%2Fimages%2Fheader-image-3.jpg&w=1200&q=100 1200w, /_next/image?url=%2Fimages%2Fheader-image-3.jpg&w=1920&q=100 1920w, /_next/image?url=%2Fimages%2Fheader-image-3.jpg&w=2048&q=100 2048w, /_next/image?url=%2Fimages%2Fheader-image-3.jpg&w=3840&q=100 3840w"
+      style="position: absolute; height: 100%; width: 100%; left: 0px; top: 0px; right: 0px; bottom: 0px; color: transparent;"
+    />
+    <img
+      alt="Slide 4"
+      class="animate-fade4"
+      data-nimg="fill"
+      decoding="async"
+      loading="lazy"
+      sizes="100vw"
+      src="/_next/image?url=%2Fimages%2Fheader-image-4.jpg&w=3840&q=100"
+      srcset="/_next/image?url=%2Fimages%2Fheader-image-4.jpg&w=640&q=100 640w, /_next/image?url=%2Fimages%2Fheader-image-4.jpg&w=750&q=100 750w, /_next/image?url=%2Fimages%2Fheader-image-4.jpg&w=828&q=100 828w, /_next/image?url=%2Fimages%2Fheader-image-4.jpg&w=1080&q=100 1080w, /_next/image?url=%2Fimages%2Fheader-image-4.jpg&w=1200&q=100 1200w, /_next/image?url=%2Fimages%2Fheader-image-4.jpg&w=1920&q=100 1920w, /_next/image?url=%2Fimages%2Fheader-image-4.jpg&w=2048&q=100 2048w, /_next/image?url=%2Fimages%2Fheader-image-4.jpg&w=3840&q=100 3840w"
+      style="position: absolute; height: 100%; width: 100%; left: 0px; top: 0px; right: 0px; bottom: 0px; color: transparent;"
+    />
+    <div
+      class="absolute left-1/2 top-1/2 z-20 flex -translate-x-1/2 -translate-y-1/2 flex-col max-w-2xl items-center justify-center gap-5 text-center text-color-white"
+    >
+      <img
+        alt="Lakeview logo"
+        class="h-[30rem] w-auto select-none border border-color-white contrast-150"
+        data-nimg="1"
+        decoding="async"
+        height="216"
+        loading="lazy"
+        src="/_next/image?url=%2Fimages%2Flakeview-logo.png&w=640&q=100"
+        srcset="/_next/image?url=%2Fimages%2Flakeview-logo.png&w=256&q=100 1x, /_next/image?url=%2Fimages%2Flakeview-logo.png&w=640&q=100 2x"
+        style="color: transparent;"
+        width="216"
+      />
+      <h1
+        class="block text-9xl uppercase tracking-[0.2rem]"
+        id="Lakeview header"
+      >
+        A Great Lifestyle
+      </h1>
+      <h2
+        class="block font-satisfy text-5xl"
+      >
+        In a Spectacular Setting
+      </h2>
+    </div>
+  </header>
+</DocumentFragment>
+`;
