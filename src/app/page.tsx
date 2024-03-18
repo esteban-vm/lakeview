@@ -1,3 +1,9 @@
+import { Header } from '@/views'
+
 export default function Home() {
-  return <main>Test</main>
+  return (
+    <main>
+      <Header />
+    </main>
+  )
 }

@@ -12,7 +12,21 @@ const tailwindConfig = {
   plugins: [tailwindCSSTouch()],
   future: { hoverOnlyWhenSupported: true },
   theme: {
-    extend: { fontFamily: { lora: ['var(--font-lora)'] } },
+    extend: {
+      animation: {
+        fade1: 'fade1 10s infinite',
+        fade2: 'fade2 10s infinite',
+        fade3: 'fade3 10s infinite',
+        fade4: 'fade4 10s infinite',
+      },
+      fontFamily: {
+        lora: 'var(--font-lora)',
+        satisfy: 'var(--font-satisfy)',
+      },
+      // backgroundImage: {
+      //   'radial-gradient': 'radial-gradient(var(--tw-gradient-stops))',
+      // },
+    },
     colors: {
       // Primary Colors
       'primary-light': 'rgb(var(--primary-light))',
@@ -37,6 +51,25 @@ const tailwindConfig = {
       'color-brown': 'rgb(var(--color-brown))',
       'color-orange': 'rgb(var(--color-orange))',
       'color-blue': 'rgb(var(--color-blue))',
+      'color-transparent': 'transparent',
+    },
+    keyframes: {
+      fade1: {
+        '0%, 100%': { opacity: 1 },
+        '25%, 50%, 75%': { opacity: 0 },
+      },
+      fade2: {
+        '0%, 50%, 75%, 100%': { opacity: 0 },
+        '25%': { opacity: 1 },
+      },
+      fade3: {
+        '0%, 25%, 75%, 100%': { opacity: 0 },
+        '50%': { opacity: 1 },
+      },
+      fade4: {
+        '0%, 25%, 50%, 100%': { opacity: 0 },
+        '75%': { opacity: 1 },
+      },
     },
   },
 }

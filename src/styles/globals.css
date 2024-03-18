@@ -34,6 +34,6 @@
   }
 
   body {
-    @apply text-grey-1-dark font-lora p-6 font-normal leading-tight;
+    @apply font-lora font-normal leading-tight text-grey-1-dark;
   }
 }

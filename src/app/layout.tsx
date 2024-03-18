@@ -11,17 +11,26 @@ export const metadata: Metadata = {
 const lora = localFont({
   variable: '--font-lora',
   display: 'swap',
-  fallback: ['sans-serif'],
+  fallback: ['serif'],
   src: [
-    { path: '../assets/fonts/Lora-VariableFont_wght.woff2', style: 'normal' },
-    { path: '../assets/fonts/Lora-Italic-VariableFont_wght.woff2', style: 'italic' },
+    { path: '../../public/fonts/lora-regular.woff2', style: 'normal' },
+    { path: '../../public/fonts/lora-italic.woff2', style: 'italic' },
   ],
+})
+
+const satisfy = localFont({
+  variable: '--font-satisfy',
+  src: '../../public/fonts/satisfy-regular.woff2',
+  display: 'swap',
+  style: 'normal',
+  weight: '400',
+  fallback: ['cursive'],
 })
 
 export default function RootLayout({ children }: { children: ReactNode }) {
   return (
     <html lang='en'>
-      <body className={lora.variable}>{children}</body>
+      <body className={`${lora.variable} ${satisfy.variable}`}>{children}</body>
     </html>
   )
 }
