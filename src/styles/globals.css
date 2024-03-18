@@ -15,18 +15,13 @@
     --secondary-3-light: 179 152 190; /* #b398be */
     --secondary-3-dark: 128 101 125; /* #80657d */
     --secondary-4-light: 196 172 108; /* #c4ac6c */
+    --secondary-4-dark: 132 108 56; /* #846c38 */
     /* Grey colors */
     --grey-1-light: 247 247 247; /* #f7f7f7 */
     --grey-1-dark: 119 119 119; /* #777 */
     --grey-2-light: 238 238 238; /* #eee */
     --grey-2-dark: 153 153 153; /* #999 */
     --grey-3-dark: 51 51 51; /* #333 */
-    /* Other colors */
-    --color-white: 255 255 255; /* #fff */
-    --color-black: 0 0 0; /* #000 */
-    --color-brown: 132 108 56; /* #846c38 */
-    --color-orange: 255 185 0; /* #ffb900 */
-    --color-blue: 41 152 255; /* #2998ff */
   }
 
   html {
