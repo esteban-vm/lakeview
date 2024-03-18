@@ -14,7 +14,7 @@ describe('Header:', () => {
     expect(asFragment()).toMatchSnapshot()
   })
 
-  it('should have correct structure', async () => {
+  it('should have correct structure', () => {
     const headerElem = screen.getByRole('banner')
     expect(headerElem).toBeInTheDocument()
     expect(headerElem).toHaveAccessibleName(/a great lifestyle/i)
