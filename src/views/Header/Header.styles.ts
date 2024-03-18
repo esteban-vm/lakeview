@@ -9,9 +9,9 @@ const styles = {
   slide4: clsx('animate-fade4'),
   content: clsx(
     'absolute left-1/2 top-1/2 z-20 flex -translate-x-1/2 -translate-y-1/2 flex-col',
-    'max-w-2xl items-center justify-center gap-5 text-center text-color-white'
+    'max-w-2xl items-center justify-center gap-5 text-center text-white'
   ),
-  logo: clsx('h-[30rem] w-auto select-none border border-color-white contrast-150'),
+  logo: clsx('h-[30rem] w-auto select-none border border-white contrast-150'),
   heading: clsx('block text-9xl uppercase tracking-[0.2rem]'),
   subheading: clsx('block font-satisfy text-5xl'),
 }
